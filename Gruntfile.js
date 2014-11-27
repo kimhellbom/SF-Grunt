@@ -24,32 +24,6 @@ module.exports = function(grunt) {
         }
       }
     },
-    /*
-    concat: {
-      options: {
-        separator: ';'
-      },
-      build: {
-        src: ['src/js/*.js'],
-        dest: 'tmp/js/<%= pkg.name %>.js'
-      }
-    },
-    */
-	  /*
-    concat: {
-      options: {
-        separator: ';'
-      },
-      build: {
-        src: ['src/components/jquery/dist/jquery.js',
-        	  'src/components/bootstrap/dist/js/bootstrap.js',
-              'src/components/jquery-touchswipe/jquery.touchSwipe.min.js',
-              'src/components/slidebars/distribution/0.9.4/slidebars.min.js',
-              'src/js/*.js'],
-        dest: 'tmp/js/<%= pkg.name %>.js'
-      }
-    },
-    */
 	concat: {
 	  options: {
 		  separator: ';'
@@ -57,15 +31,11 @@ module.exports = function(grunt) {
 	  js: {
 		  src: ['src/components/jquery/dist/jquery.js',
 			    'src/components/bootstrap/dist/js/bootstrap.js',
-			    'src/components/jquery-touchswipe/jquery.touchSwipe.min.js',
-			    'src/components/slidebars/distribution/0.9.4/slidebars.min.js',
 			    'src/js/*.js'],
 		  dest: 'tmp/js/<%= pkg.name %>.js'
 	  },
 	  css: {
 		  src: ['src/css/*.css',
-			    //'src/components/jquery-touchswipe/demos/css/main.css',
-			    'src/components/slidebars/distribution/0.9.4/slidebars.css',
 			    'tmp/css/styles.css'],
 		  dest: 'tmp/css/styles.css'
 	  }
@@ -122,8 +92,8 @@ module.exports = function(grunt) {
         options: {
           //user: 'sohalloran@salesforce.com.wsewdev', // storing my un/pw as env vars for security
           //pass: 'Barce1ona', // storing my un/pw as env vars for security
-          user: 'lwetherell@wse.com.wsedev', // storing my un/pw as env vars for security
-          pass: 'passwordgoeshere', // storing my un/pw as env vars for security
+          user: 'yourusername', // storing my un/pw as env vars for security
+          pass: 'yourpassword', // storing my un/pw as env vars for security
           serverurl: 'https://test.salesforce.com'
         },
         pkg: {

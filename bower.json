@@ -2,7 +2,7 @@
   "name": "ls",
   "version": "0.0.0",
   "authors": [
-    "sohalloran <sohalloran2@yahoo.com>"
+    "Kim Hellbom kim.hellbom@makepositive.com"
   ],
   "license": "MIT",
   "ignore": [
@@ -14,8 +14,6 @@
   ],
   "dependencies": {
     "bootstrap": "~3.1.1",
-    "jquery": "~2.1.0",
-    "jquery-touchswipe": "~1.6.4",
-    "slidebars": "~0.9.4"
+    "jquery": "~2.1.0"
   }
 }
