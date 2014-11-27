@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSE World</title>
+		<link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="components/slidebars.min.css" rel="stylesheet">
+		<link href="../tmp/css/styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+
+
+
+		<!-- MOBILE Left SIDEBAR MENU -->
+		<nav class="navbar navbar-default navbar-fixed-top visible-xs sb-slide" role="navigation">
+			<div class="sb-toggle-left navbar-left">
+				<a href="#" class="btn btn-primary btn-lg col-xs-3" id="leftNavMainParent" role="button">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="glyphicon glyphicon-align-left"></span>
+				</a>
+			</div>
+		</nav>
+		<!--
+		<div class="navbar navbar-inverse navbar-fixed-top visible-xs" role="navigation">
+			<div class="container-fluid" id="containerLeftNav">
+				<div class="row navbar-header navLeft">
+					<a href="#" class="btn btn-primary btn-lg col-xs-3" id="leftNavMainParent" role="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-align-left"></span>
+					</a>
+				</div>
+
+				<div class="sidebarLeft" id="leftNavMain">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="#">Submenu_ONE</a></li>
+						<li><a href="#">Submenu_TWO</a></li>
+						<li><a href="#">Submenu_THREE</a></li>
+						<li><a href="#">Submenu_FOUR</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		-->
+		<div class="sb-slidebar sb-left">
+			<p>This is a test</p>
+			<!--
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="#">Submenu_ONE</a></li>
+				<li><a href="#">Submenu_TWO</a></li>
+				<li><a href="#">Submenu_THREE</a></li>
+				<li><a href="#">Submenu_FOUR</a></li>
+			</ul>
+			-->
+		</div>
+		<!-- /MOBILE Left SIDEBAR MENU -->
+
+		<!-- MOBILE Bottom MENU -->
+		<div class="navbar navbar-inverse navbar-fixed-bottom visible-xs" role="navigation">
+			<div class="container-fluid" id="containerBottomNav">
+				<div class="row navbar-header navBottom">
+
+					<a href="index.html" class="btn btn-primary btn-lg col-xs-3 active" id="navHomeParent" role="button">
+						<span class="sr-only">Home</span>
+						<span class="glyphicon glyphicon-home"></span>
+					</a>
+					<a href="#" class="btn btn-primary btn-lg col-xs-3" id="navMessagesParent" data-toggle="collapse" data-target="#navMessages" role="button">
+						<span class="sr-only">Messages</span>
+						<span class="glyphicon glyphicon-envelope"></span>
+					</a>
+					<a href="#" class="btn btn-primary btn-lg col-xs-3" id="navNotificationsParent" data-toggle="collapse" data-target="#navNotifications" role="button">
+						<span class="sr-only">Notifications</span>
+						<span class="glyphicon glyphicon-bell"></span>
+					</a>
+					<a href="#" class="btn btn-primary btn-lg col-xs-3" id="navMainParent" data-toggle="collapse" data-target="#navMain" role="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</a>
+
+				</div>
+
+				<div id="bottomSubNav">
+					<div class="navbar-collapse collapse" id="navMessages">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Message 1</a></li>
+							<li><a href="index.html">Message 2</a></li>
+							<li><a href="#">Message 3</a></li>
+							<li><a href="#">Message 4</a></li>
+						</ul>
+					</div>
+
+					<div class="navbar-collapse collapse" id="navNotifications">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Notifications 1</a></li>
+							<li><a href="notifications.html">Notifications 2</a></li>
+							<li><a href="#">Notifications 3</a></li>
+							<li><a href="#">Notifications 4</a></li>
+						</ul>
+					</div>
+
+					<div class="navbar-collapse collapse" id="navMain">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">My Progress</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Lessons</a></li>
+							<li><a href="#">Profile</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- /MOBILE Bottom MENU -->
+
+		<!-- Desktop top menu -->
+		<div class="navbar navbar-inverse navbar-fixed-top hidden-xs" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">WSE World</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">My Progress</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Lessons</a></li>
+						<li><a href="#">Profile</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search...">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div id="sb-site">
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<h1 class="page-header">My Progress</h1>
+
+				<div class="row placeholders">
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<h4>Label</h4>
+						<span class="text-muted">Something else</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<h4>Label</h4>
+						<span class="text-muted">Something else</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<h4>Label</h4>
+						<span class="text-muted">Something else</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<h4>Label</h4>
+						<span class="text-muted">Something else</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Load JavaScript files
+		================================================== -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="components/slidebars.min.js"></script>
+		<script src="components/jquery.touchSwipe.min.js"></script>
+		<script src="js/custom.js"></script>
+
+	</body>
+</html>
