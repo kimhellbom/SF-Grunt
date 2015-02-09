@@ -5,10 +5,6 @@ Salesforce Grunt automated task runner.
 
 This Grunt build will compile your LESS files, concat all JavaScript code, include images and deploy it into Salesforce as one single resource. All with one command!
 
-Available commands:
-- `grunt default` (no deployment)
-- `grunt all` (with deployment)
-
 ###Instructions
 1. Clone GitHub repo
 2. Open the command line to the cloned folder
@@ -18,4 +14,10 @@ Available commands:
 
 You can change the name of the static resource in package.json
 
+Available commands:
+- `grunt default` (no deployment)
+- `grunt all` (with deployment)
+
 Typing: `grunt watch` will watch for any changes to js files or less files in the src folder and deploy them into salesforce.
+
+You will need to have [ant]:http://ant.apache.org/ installed.
