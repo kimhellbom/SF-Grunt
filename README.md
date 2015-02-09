@@ -20,4 +20,6 @@ Available commands:
 
 Typing: `grunt watch` will watch for any changes to js files or less files in the src folder and deploy them into salesforce.
 
-You will need to have [ant]:http://ant.apache.org/ installed.
+You will need to have [ant] installed.
+
+[ant]:http://ant.apache.org/
