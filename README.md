@@ -14,7 +14,7 @@ Available commands:
 2. Open the command line to the cloned folder
 3. Use command: `npm install`, to get all the dependencies
 4. Use command: `bower install`, to get the project dependencies
-5. Open the Gruntfile.js and add your username and password for the sandbox where you find SALESFORCE_USERNAME and SALESFORCE_PASSWORD
+5. Open the Gruntfile.js and add your username and password for the sandbox where you find yourusername and yourpassword
 
 You can change the name of the static resource in package.json
 
