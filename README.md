@@ -9,6 +9,7 @@ Available commands:
 - grunt default (no deployment)
 - grunt all (with deployment)
 
+##Instruction
 1. Clone GitHub repo
 2. Open the command line to the cloned folder
 3. Use command: npm install, to get all the dependencies
