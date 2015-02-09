@@ -5,7 +5,7 @@ Salesforce Grunt automated task runner.
 
 This Grunt build will compile your LESS files, concat all JavaScript code, include images and deploy it into Salesforce as one single resource. All with one command!
 
-You will need to have [Npm],[Bower] and [ant] installed.
+[Npm], [Bower] and [ant] are required.
 
 ###Instructions
 1. Clone GitHub repo
