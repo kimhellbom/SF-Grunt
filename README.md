@@ -18,4 +18,4 @@ Available commands:
 
 You can change the name of the static resource in package.json
 
-Typing: "grunt watch" will watch for any changes to js files or less files in the src folder and deploy them into salesforce.
+Typing: `grunt watch` will watch for any changes to js files or less files in the src folder and deploy them into salesforce.
