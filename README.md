@@ -3,7 +3,7 @@ SF-Grunt
 
 Salesforce Grunt automated task runner.
 
-This Grunt task that will automatically compile your LESS files, concat all JavaScript code, include images and deploy it into Salesforce as one single resource. All with one command!
+This Grunt build will compile your LESS files, concat all JavaScript code, include images and deploy it into Salesforce as one single resource. All with one command!
 
 Available commands:
 - `grunt default` (no deployment)
