@@ -26,3 +26,5 @@ Typing: `grunt watch` will watch for any changes to js files or less files in th
 [ant]:http://ant.apache.org/
 [Npm]:https://www.npmjs.com
 [Bower]:http://bower.io/
+
+Credits: Stephen O'Halloran
